@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/flower-shop/static/css/main.5369de43.css",
-    "main.js": "/flower-shop/static/js/main.1edd2207.js",
-    "static/media/video.mp4": "/flower-shop/static/media/video.8bff16b3c02bf8448985.mp4",
-    "static/media/video.webm": "/flower-shop/static/media/video.e60f495352664e20b92d.webm",
-    "static/media/flower.png": "/flower-shop/static/media/flower.57756971f1162986fd6d.png",
-    "static/media/flower2.png": "/flower-shop/static/media/flower2.12862eb2266495aa0dd5.png",
-    "static/media/iconLeafLong2.png": "/flower-shop/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
-    "index.html": "/flower-shop/index.html",
-    "main.5369de43.css.map": "/flower-shop/static/css/main.5369de43.css.map",
-    "main.1edd2207.js.map": "/flower-shop/static/js/main.1edd2207.js.map"
+    "main.css": "/static/css/main.8bf496cc.css",
+    "main.js": "/static/js/main.1194c964.js",
+    "static/media/video.mp4": "/static/media/video.8bff16b3c02bf8448985.mp4",
+    "static/media/video.webm": "/static/media/video.e60f495352664e20b92d.webm",
+    "static/media/flower.png": "/static/media/flower.57756971f1162986fd6d.png",
+    "static/media/flower2.png": "/static/media/flower2.12862eb2266495aa0dd5.png",
+    "static/media/iconLeafLong2.png": "/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
+    "index.html": "/index.html",
+    "main.8bf496cc.css.map": "/static/css/main.8bf496cc.css.map",
+    "main.1194c964.js.map": "/static/js/main.1194c964.js.map"
   },
   "entrypoints": [
-    "static/css/main.5369de43.css",
-    "static/js/main.1edd2207.js"
+    "static/css/main.8bf496cc.css",
+    "static/js/main.1194c964.js"
   ]
 }
