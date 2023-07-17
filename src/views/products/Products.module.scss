@@ -47,14 +47,16 @@
 
   .content {
     position: absolute;
+    top: 7%;
     // left: 10%;
     width: 100%;
-    height: 100%;
+    height: 93%;
     overflow-y: scroll !important;
+    // background: red;
 
     .leafRomantic {
       @include styleLeaf();
-      top: 6%;
+      top: 2%;
       animation: displayFromRight 1s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -73,7 +75,7 @@
 
     .leafBirthDay {
       @include styleLeaf();
-      top: 22%;
+      top: 14%;
       animation: displayFromRight 1.2s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -92,7 +94,7 @@
 
     .leafMissYou {
       @include styleLeaf();
-      top: 38%;
+      top: 26%;
       animation: displayFromRight 1.4s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -110,7 +112,7 @@
     }
     .leafGoodLuck {
       @include styleLeaf();
-      top: 54%;
+      top: 38%;
       animation: displayFromRight 1.6s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -129,7 +131,7 @@
 
     .leafThankYou {
       @include styleLeaf();
-      top: 70%;
+      top: 50%;
       animation: displayFromRight 1.8s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -148,7 +150,7 @@
 
     .leafNewBaby {
       @include styleLeaf();
-      top: 86%;
+      top: 62%;
       animation: displayFromRight 2s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -167,7 +169,7 @@
 
     .leafGetWell {
       @include styleLeaf();
-      top: 102%;
+      top: 74%;
       animation: displayFromRight 2.2s ease-out forwards;
 
       @keyframes displayFromRight {
@@ -186,7 +188,7 @@
 
     .leafSorry {
       @include styleLeaf();
-      top: 118%;
+      top: 86%;
       animation: displayFromRight 2.4s ease-out forwards;
 
       @keyframes displayFromRight {

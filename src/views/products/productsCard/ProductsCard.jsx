@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+
+import React from "react";
 import { useLocation,useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import flower from "../../../assets/images/flower.png";
 import iconLeafLong from "../../../assets/images/iconLeafLong2.png";
 import { productsEnum } from '../../../util/products';
 import routes from "../../../util/routes";
