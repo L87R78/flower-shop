@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    // "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "simple-import-sort"],
+  "rules": {
+    "semi": ["error", "always"],
+    // "quotes": [2, "single"], // "string" -> 'string'
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 1 }],
+    "no-multi-spaces": "error",
+    "no-trailing-spaces": "error",
+    "no-console": 2,
+    "indent": ["error", 2, { "ignoredNodes": ["ConditionalExpression"] }],
+    "react/prop-types": ["off"],
+    "simple-import-sort/imports": [
+      "error",
+      {
+        "groups": [
+          ["^react", "^@?\\w"], // Packages `react` related packages come first.
+          ["^(@|components)(/.*|$)"], // Internal packages.
+          ["^\\u0000"],
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"], // Parent imports. Put `..` last.
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"], // Other relative imports. Put same-folder imports and `.` last.
+          ["^.+\\.?(css)$"] // Style imports.
+        ]
+      }
+    ]
+  }
+}

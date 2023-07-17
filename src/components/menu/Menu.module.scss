@@ -1,0 +1,109 @@
+@mixin dflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin stylesContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  header {
+    border: none;
+    @include dflex();
+    justify-content: flex-end;
+    width: 100%;
+    height: 56px;
+ 
+
+    .menuOpen {
+      width: 32px;
+      height: 32px;
+      @include dflex();
+      cursor: pointer;
+      margin-right: 32px;
+      margin-top: 32px;
+      font-size: 32px;
+
+      animation: showMe 3s forwards;
+
+      @keyframes showMe {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+
+    .menuClose {
+      display: none;
+    }
+  }
+}
+
+.container {
+  @include stylesContainer();
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  @include stylesContainer();
+}
+
+.menuContainer {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: #fff;
+  @include dflex();
+  flex-direction: column;
+  opacity: 0.8 !important;
+
+  a {
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    overflow: hidden;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    + a {
+      margin-top: 2svw;
+    }
+  }
+
+  .btnClose {
+    @include dflex();
+    width: 58px;
+    height: 58px;
+    background: white;
+    color: black;
+    border-radius: 58px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .menu_container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 560px) {
+  .menu_container {
+    width: 100%;
+  }
+}

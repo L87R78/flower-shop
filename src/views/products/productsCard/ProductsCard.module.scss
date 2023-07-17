@@ -1,0 +1,114 @@
+.wrapperInfoProducts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.993);
+    height: 100%;
+    width: 100%;
+  
+    .wrapperBtnBack {
+      position: relative;
+  
+      img {
+        width: 80px;
+        height: 80px;
+        transform: rotate(240deg);
+        // margin-left: 42px;
+        cursor: pointer;
+        transition: transform ease-in 300ms;
+        border-radius: 100%;
+        margin-left: 32px;
+  
+        &:hover {
+          transform: rotate(225deg);
+        }
+      }
+  
+      p {
+        position: absolute;
+        left: 48px;
+        top: 30px;
+        pointer-events: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  
+    .wrapperContent {
+      margin: 16px;
+      text-align: center;
+      height: 90%;
+      overflow-y: scroll;
+  
+      .wrapperHeaderTexts {
+        width: 80%;
+        margin: 8px auto;
+        text-align: center;
+  
+        .title {
+          font-size: 32px;
+          margin-bottom: 8px;
+        }
+  
+        .discription {
+          margin-bottom: 32px;
+        }
+      }
+  
+      .flowers {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+  
+        .flowerOne {
+          img {
+            width: 80%;
+            height: 90%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+          }
+  
+          .name {
+            font-weight: 600;
+            margin-bottom: 2px;
+          }
+        }
+  
+        .flowerTwo {
+          img {
+            margin: 0 16px;
+            width: 80%;
+            height: 90%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+          }
+  
+          .name {
+            font-weight: 600;
+            margin-bottom: 2px;
+          }
+        }
+  
+        .flowerThree {
+          img {
+            width: 80%;
+            height: 90%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 16px;
+          }
+  
+          .name {
+            font-weight: 600;
+            margin-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,66 @@
+.wrapperHeaderTexts {
+    width: 80%;
+    margin: 8px auto;
+    text-align: center;
+  
+    .title {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+  
+    .discription {
+      margin-bottom: 32px;
+    }
+  }
+  
+  .flowers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+  
+    .flowerOne {
+      img {
+        width: 80%;
+        height: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  
+    .flowerTwo {
+      img {
+        margin: 0 16px;
+        width: 80%;
+        height: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  
+    .flowerThree {
+      img {
+        width: 80%;
+        height: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  }

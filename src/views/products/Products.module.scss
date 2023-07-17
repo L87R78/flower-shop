@@ -1,0 +1,206 @@
+// @import "../../../src/assets/scss/mixins";
+
+@mixin styleLeaf {
+  position: absolute;
+  width: 160px;
+
+  .test {
+    position: relative;
+
+    img {
+      width: 80%;
+      height: 70%;
+      transform: rotate(240deg);
+      margin-left: 42px;
+      cursor: pointer;
+      transition: transform ease-in 300ms;
+
+      &:hover {
+        transform: rotate(225deg);
+      }
+    }
+
+    p {
+      position: absolute;
+      color: white;
+      left: 24%;
+      top: 44%;
+      width: 80%;
+      word-wrap: break-word;
+      transform: rotate(-14deg);
+      font-size: 18px;
+      font-weight: bold;
+      pointer-events: none;
+      text-align: center;
+    }
+  }
+}
+
+.wrapperProducts {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  opacity: 0.99;
+  width: 100%;
+  height: 100%;
+
+  .content {
+    position: absolute;
+    // left: 10%;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll !important;
+
+    .leafRomantic {
+      @include styleLeaf();
+      top: 6%;
+      animation: displayFromRight 1s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafBirthDay {
+      @include styleLeaf();
+      top: 22%;
+      animation: displayFromRight 1.2s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafMissYou {
+      @include styleLeaf();
+      top: 38%;
+      animation: displayFromRight 1.4s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+    .leafGoodLuck {
+      @include styleLeaf();
+      top: 54%;
+      animation: displayFromRight 1.6s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafThankYou {
+      @include styleLeaf();
+      top: 70%;
+      animation: displayFromRight 1.8s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafNewBaby {
+      @include styleLeaf();
+      top: 86%;
+      animation: displayFromRight 2s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafGetWell {
+      @include styleLeaf();
+      top: 102%;
+      animation: displayFromRight 2.2s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+
+    .leafSorry {
+      @include styleLeaf();
+      top: 118%;
+      animation: displayFromRight 2.4s ease-out forwards;
+
+      @keyframes displayFromRight {
+        0% {
+          right: 100%;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        100% {
+          right: 0;
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    }
+  }
+}
