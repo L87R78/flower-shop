@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <motion.div className={styles.homeText}>
-      Бети
+      Home page
     </motion.div>
   );
 };
