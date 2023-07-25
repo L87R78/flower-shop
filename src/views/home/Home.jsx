@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -5,10 +6,15 @@ import { motion } from "framer-motion";
 import styles from "./Home.module.scss";
 
 const Home = () => {
+  const now = new Date();
+
+  const day = now.toLocaleDateString('en-US', { weekday: 'long' });
+
+  console.log('@@@ day ', day);
 
   return (
     <motion.div className={styles.homeText}>
-      Home page
+      <p>Today is: {day}</p>
     </motion.div>
   );
 };
