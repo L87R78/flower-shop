@@ -1,18 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
-import { AnimatePresence,motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
-import logoBG from '../../assets/images/logoBG.PNG';
-import logoEngland from '../../assets/images/logoEngland.PNG';
+import logoBG from "../../assets/images/logoBG.PNG";
+import logoEngland from "../../assets/images/logoEngland.PNG";
 import routes from "../../util/routes";
 
 import styles from "./Menu.module.scss";
 
 const Menu = () => {
   const location = useLocation();
-  const [ t, i18n] = useTranslation();
+  const [t, i18n] = useTranslation();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isShowBtn, setIsShowBtn] = useState(false);
@@ -20,7 +20,7 @@ const Menu = () => {
 
   const handleChangeLanguage = () => {
     setIsChangeLangage(!isChangeLangage);
-    i18n.changeLanguage(!isChangeLangage ? 'bg' : 'en');
+    i18n.changeLanguage(!isChangeLangage ? "bg" : "en");
   };
 
   const handleOpenMenu = () => {
@@ -49,24 +49,37 @@ const Menu = () => {
   };
 
   const handleStyleMenuButton = () => {
-    switch(location.pathname){
-    case `${routes.products}`: return '#000';
-    default: return '#fff';
+    switch (location.pathname) {
+    case `${routes.products}`:
+      return "#000";
+    default:
+      return "#000";
     }
   };
 
   return (
     <>
-      <div className={!isShowBtn ? styles.containerMenuOpen : styles.containerMenuClose}>
+      <div
+        className={
+          !isShowBtn ? styles.containerMenuOpen : styles.containerMenuClose
+        }
+      >
         <header>
           <div className={styles.wrapperLanguage}>
-            <img src={!isChangeLangage ? logoBG : logoEngland} onClick={() => handleChangeLanguage()} alt="" />
+            <img
+              src={!isChangeLangage ? logoBG : logoEngland}
+              onClick={() => handleChangeLanguage()}
+              alt=""
+            />
           </div>
           <div
             className={!isShowBtn ? styles.menuOpen : styles.menuClose}
             onClick={handleOpenMenu}
           >
-            <i className="fa fa-bars" style={{ color: handleStyleMenuButton()}}></i>
+            <i
+              className="fa fa-bars"
+              style={{ color: handleStyleMenuButton() }}
+            ></i>
           </div>
         </header>
         <AnimatePresence>
@@ -80,7 +93,7 @@ const Menu = () => {
               exit={"exit"}
             >
               <div className={styles.btnClose} onClick={handleCloseMenu}>
-              X
+                X
               </div>
               <motion.div
                 href="/#"
@@ -96,7 +109,9 @@ const Menu = () => {
                   },
                 }}
               >
-                <Link to={routes.baseURL} onClick={handleCloseMenu}>Home</Link>
+                <Link to={routes.baseURL} onClick={handleCloseMenu}>
+                  Home
+                </Link>
               </motion.div>
               <motion.div
                 initial={{ y: 0, opacity: 0 }}
@@ -111,7 +126,9 @@ const Menu = () => {
                   },
                 }}
               >
-                <Link to={routes.products} onClick={handleCloseMenu}>Occasions</Link>
+                <Link to={routes.products} onClick={handleCloseMenu}>
+                  Occasions
+                </Link>
               </motion.div>
               <motion.div
                 initial={{ y: 0, opacity: 0 }}
@@ -156,14 +173,32 @@ const Menu = () => {
                   },
                 }}
               >
-                <Link to={routes.contacts} onClick={handleCloseMenu}>Bouquets</Link>
+                <Link to={routes.contacts} onClick={handleCloseMenu}>
+                  Bouquets
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ y: 0, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.4 }}
+                exit={{
+                  opacity: 0,
+                  y: 90,
+                  transition: {
+                    ease: "easeInOut",
+                    delay: 0.1,
+                  },
+                }}
+              >
+                <Link to={routes.contacts} onClick={handleCloseMenu}>
+                  Contacts
+                </Link>
               </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
       </div>
     </>
-
   );
 };
 

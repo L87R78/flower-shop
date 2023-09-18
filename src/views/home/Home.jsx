@@ -57,7 +57,7 @@ const Home = () => {
   return (
     <>
       <Video />
-      {handleChangeColor()}
+      {/* {handleChangeColor()} */}
       {/* <motion.div
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: '50%', opacity: 0.9 }}

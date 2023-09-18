@@ -1,116 +1,137 @@
 .wrapperInfoProducts {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    transform: translate(-50%, -50%);
-    background: #fffffffd;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    // overflow-y: scroll;
-  
-    .wrapperBtnBack {
-      position: relative;
-  
-      img {
-        width: 80px;
-        height: 80px;
-        transform: rotate(240deg);
-        // margin-left: 42px;
-        cursor: pointer;
-        transition: transform ease-in 300ms;
-        border-radius: 100%;
-        margin-left: 32px;
-  
-        &:hover {
-          transform: rotate(225deg);
-        }
-      }
-  
-      p {
-        position: absolute;
-        left: 48px;
-        top: 30px;
-        pointer-events: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+  // background: red;
+  height: 100%;
+  width: 100%;
+  // overflow: hidden;
+  // overflow-y: scroll;
+
+  .wrapperBtnBack {
+    position: relative;
+
+    img {
+      width: 80px;
+      height: 80px;
+      transform: rotate(240deg);
+      // margin-left: 42px;
+      cursor: pointer;
+      transition: transform ease-in 300ms;
+      border-radius: 100%;
+      margin-left: 32px;
+
+      &:hover {
+        transform: rotate(225deg);
       }
     }
-  
-    .wrapperContent {
-      margin: 16px;
+
+    p {
+      position: absolute;
+      left: 48px;
+      top: 30px;
+      pointer-events: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .wrapperContent {
+    margin: 16px;
+    text-align: center;
+    height: 85%;
+    overflow-y: auto;
+    background: #eefde3b4;
+    border-radius: 4px;
+    // scrollbar-width: none;
+    // padding-right: 117px;
+    // box-sizing: content-box; 
+    // scrollba
+
+    .wrapperHeaderTexts {
+      width: 80%;
+      margin: 8px auto;
       text-align: center;
-      height: 90%;
-      overflow-y: auto;
-  
-      .wrapperHeaderTexts {
-        width: 80%;
-        margin: 8px auto;
-        text-align: center;
-  
-        .title {
-          font-size: 32px;
-          margin-bottom: 8px;
+
+      .title {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+
+      .discription {
+        margin-bottom: 32px;
+      }
+    }
+
+    .flowers {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+
+      .flowerOne {
+        img {
+          width: 80%;
+          height: 90%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          border-radius: 16px;
         }
-  
-        .discription {
-          margin-bottom: 32px;
+
+        .name {
+          font-weight: 600;
+          margin-bottom: 2px;
         }
       }
-  
-      .flowers {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 32px;
-  
-        .flowerOne {
-          img {
-            width: 80%;
-            height: 90%;
-            background-size: contain;
-            background-repeat: no-repeat;
-            border-radius: 16px;
-          }
-  
-          .name {
-            font-weight: 600;
-            margin-bottom: 2px;
-          }
+
+      .flowerTwo {
+        img {
+          margin: 0 16px;
+          width: 80%;
+          height: 90%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          border-radius: 16px;
         }
-  
-        .flowerTwo {
-          img {
-            margin: 0 16px;
-            width: 80%;
-            height: 90%;
-            background-size: contain;
-            background-repeat: no-repeat;
-            border-radius: 16px;
-          }
-  
-          .name {
-            font-weight: 600;
-            margin-bottom: 2px;
-          }
+
+        .name {
+          font-weight: 600;
+          margin-bottom: 2px;
         }
-  
-        .flowerThree {
-          img {
-            width: 80%;
-            height: 90%;
-            background-size: contain;
-            background-repeat: no-repeat;
-            border-radius: 16px;
-          }
-  
-          .name {
-            font-weight: 600;
-            margin-bottom: 2px;
-          }
+      }
+
+      .flowerThree {
+        img {
+          width: 80%;
+          height: 90%;
+          background-size: contain;
+          background-repeat: no-repeat;
+          border-radius: 16px;
+        }
+
+        .name {
+          font-weight: 600;
+          margin-bottom: 2px;
         }
       }
     }
   }
-  
+}
+
+@media (max-width: 900px) {
+  .wrapperInfoProducts {
+    .wrapperBtnBack {
+      img {
+        margin-top: 54px;
+        margin-left: 12px;
+      }
+
+      p {
+        top: 84px;
+        left: 28px;
+      }
+    }
+  }
+}

@@ -78,6 +78,7 @@
   @include dflex();
   flex-direction: column;
   opacity: 0.8 !important;
+  z-index: 999;
 
   a {
     display: inline-flex;
@@ -108,14 +109,14 @@
   }
 }
 
-@media (max-width: 1100px) {
-  .menu_container {
-    width: 50%;
-  }
-}
+// @media (max-width: 1100px) {
+//   .menu_container {
+//     width: 50%;
+//   }
+// }
 
-@media (max-width: 560px) {
-  .menu_container {
-    width: 100%;
-  }
-}
+// @media (max-width: 560px) {
+//   .menu_container {
+//     width: 100%;
+//   }
+// }

@@ -28,7 +28,7 @@ const Contacts = () => {
         height="80%"
         // allowfullscreen=""
         loading="lazy"
-        frameBorder="0"
+        // frameBorder="0"
         style={{
           margin: 'auto',
           borderRadius: '4px',
