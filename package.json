@@ -1,7 +1,7 @@
 {
   "name": "flowe-shop",
   "version": "0.1.0",
-  "homepage": "https://github.com/L87R78/flower-shop",
+  "homepage": "https://L87R78.github.io/flower-shop",
   "private": true,
   "dependencies": {
     "framer-motion": "10.8.0",
