@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/L87R78/flower-shop/static/css/main.111896b7.css",
-    "main.js": "/L87R78/flower-shop/static/js/main.cc0f86ab.js",
-    "static/media/video.mp4": "/L87R78/flower-shop/static/media/video.8bff16b3c02bf8448985.mp4",
-    "static/media/video.webm": "/L87R78/flower-shop/static/media/video.e60f495352664e20b92d.webm",
-    "static/media/logoEngland.PNG": "/L87R78/flower-shop/static/media/logoEngland.a29f117def8f9ae51c30.PNG",
-    "static/media/flower2.png": "/L87R78/flower-shop/static/media/flower2.12862eb2266495aa0dd5.png",
-    "static/media/boadImage.PNG": "/L87R78/flower-shop/static/media/boadImage.f8998748762ca305f636.PNG",
-    "static/media/logoBG.PNG": "/L87R78/flower-shop/static/media/logoBG.42be2c52e79b97b91833.PNG",
-    "static/media/roses.PNG": "/L87R78/flower-shop/static/media/roses.20ac0d24eaf905116929.PNG",
-    "static/media/iconLeafLong2.png": "/L87R78/flower-shop/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
-    "index.html": "/L87R78/flower-shop/index.html",
-    "main.111896b7.css.map": "/L87R78/flower-shop/static/css/main.111896b7.css.map",
-    "main.cc0f86ab.js.map": "/L87R78/flower-shop/static/js/main.cc0f86ab.js.map"
+    "main.css": "/flower-shop/static/css/main.111896b7.css",
+    "main.js": "/flower-shop/static/js/main.c8a1ffb0.js",
+    "static/media/video.mp4": "/flower-shop/static/media/video.8bff16b3c02bf8448985.mp4",
+    "static/media/video.webm": "/flower-shop/static/media/video.e60f495352664e20b92d.webm",
+    "static/media/logoEngland.PNG": "/flower-shop/static/media/logoEngland.a29f117def8f9ae51c30.PNG",
+    "static/media/flower2.png": "/flower-shop/static/media/flower2.12862eb2266495aa0dd5.png",
+    "static/media/boadImage.PNG": "/flower-shop/static/media/boadImage.f8998748762ca305f636.PNG",
+    "static/media/logoBG.PNG": "/flower-shop/static/media/logoBG.42be2c52e79b97b91833.PNG",
+    "static/media/roses.PNG": "/flower-shop/static/media/roses.20ac0d24eaf905116929.PNG",
+    "static/media/iconLeafLong2.png": "/flower-shop/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
+    "index.html": "/flower-shop/index.html",
+    "main.111896b7.css.map": "/flower-shop/static/css/main.111896b7.css.map",
+    "main.c8a1ffb0.js.map": "/flower-shop/static/js/main.c8a1ffb0.js.map"
   },
   "entrypoints": [
     "static/css/main.111896b7.css",
-    "static/js/main.cc0f86ab.js"
+    "static/js/main.c8a1ffb0.js"
   ]
 }
