@@ -1,6 +1,6 @@
 .wrapperHeaderTexts {
   width: 80%;
-  margin: 8px auto;
+  margin: 54px auto;
   text-align: center;
 
   .title {
@@ -17,15 +17,16 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
+  border: 1px solid red;
 
   .flowerOne {
+    margin-bottom: 24px;
+
     img {
       width: 80%;
-      height: 90%;
       background-size: contain;
       background-repeat: no-repeat;
       border-radius: 16px;
-      cursor: pointer;
     }
 
     .name {
@@ -35,10 +36,10 @@
   }
 
   .flowerTwo {
+    margin-bottom: 24px;
+
     img {
-      margin: 0 16px;
       width: 80%;
-      height: 90%;
       background-size: contain;
       background-repeat: no-repeat;
       border-radius: 16px;
@@ -51,9 +52,10 @@
   }
 
   .flowerThree {
+    margin-bottom: 24px;
+
     img {
       width: 80%;
-      height: 90%;
       background-size: contain;
       background-repeat: no-repeat;
       border-radius: 16px;
@@ -63,5 +65,12 @@
       font-weight: 600;
       margin-bottom: 2px;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .flowers {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

@@ -1,0 +1,77 @@
+.wrapperHeaderTexts {
+    width: 80%;
+    margin: 8px auto;
+    text-align: center;
+  
+    .title {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+  
+    .discription {
+      margin-bottom: 32px;
+    }
+  }
+  
+  .flowers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    border: 1px solid red;
+  
+    .flowerOne {
+      margin-bottom: 24px;
+  
+      img {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  
+    .flowerTwo {
+      margin-bottom: 24px;
+  
+      img {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  
+    .flowerThree {
+      margin-bottom: 24px;
+  
+      img {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+      }
+  
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .flowers {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  

@@ -4,9 +4,11 @@
     left: 0;
     right: 0;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.993);
+    background: #fffffffd;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    // overflow-y: scroll;
   
     .wrapperBtnBack {
       position: relative;
@@ -41,7 +43,7 @@
       margin: 16px;
       text-align: center;
       height: 90%;
-      overflow-y: scroll;
+      overflow-y: auto;
   
       .wrapperHeaderTexts {
         width: 80%;
