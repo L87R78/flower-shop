@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bf496cc.css",
-    "main.js": "/static/js/main.1194c964.js",
-    "static/media/video.mp4": "/static/media/video.8bff16b3c02bf8448985.mp4",
-    "static/media/video.webm": "/static/media/video.e60f495352664e20b92d.webm",
-    "static/media/flower.png": "/static/media/flower.57756971f1162986fd6d.png",
-    "static/media/flower2.png": "/static/media/flower2.12862eb2266495aa0dd5.png",
-    "static/media/iconLeafLong2.png": "/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
-    "index.html": "/index.html",
-    "main.8bf496cc.css.map": "/static/css/main.8bf496cc.css.map",
-    "main.1194c964.js.map": "/static/js/main.1194c964.js.map"
+    "main.css": "/L87R78/flower-shop/static/css/main.111896b7.css",
+    "main.js": "/L87R78/flower-shop/static/js/main.b4f7a98c.js",
+    "static/media/video.mp4": "/L87R78/flower-shop/static/media/video.8bff16b3c02bf8448985.mp4",
+    "static/media/video.webm": "/L87R78/flower-shop/static/media/video.e60f495352664e20b92d.webm",
+    "static/media/logoEngland.PNG": "/L87R78/flower-shop/static/media/logoEngland.a29f117def8f9ae51c30.PNG",
+    "static/media/flower2.png": "/L87R78/flower-shop/static/media/flower2.12862eb2266495aa0dd5.png",
+    "static/media/boadImage.PNG": "/L87R78/flower-shop/static/media/boadImage.f8998748762ca305f636.PNG",
+    "static/media/logoBG.PNG": "/L87R78/flower-shop/static/media/logoBG.42be2c52e79b97b91833.PNG",
+    "static/media/roses.PNG": "/L87R78/flower-shop/static/media/roses.20ac0d24eaf905116929.PNG",
+    "static/media/iconLeafLong2.png": "/L87R78/flower-shop/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
+    "index.html": "/L87R78/flower-shop/index.html",
+    "main.111896b7.css.map": "/L87R78/flower-shop/static/css/main.111896b7.css.map",
+    "main.b4f7a98c.js.map": "/L87R78/flower-shop/static/js/main.b4f7a98c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf496cc.css",
-    "static/js/main.1194c964.js"
+    "static/css/main.111896b7.css",
+    "static/js/main.b4f7a98c.js"
   ]
 }
