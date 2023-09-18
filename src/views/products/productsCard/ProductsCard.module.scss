@@ -1,14 +1,15 @@
 .wrapperInfoProducts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  transform: translate(-50%, -50%);
-  // background: red;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // transform: translate(-50%, -50%);
+  // // background: red;
   height: 100%;
   width: 100%;
   // overflow: hidden;
   // overflow-y: scroll;
+  // background: blue;
 
   .wrapperBtnBack {
     position: relative;
@@ -42,7 +43,7 @@
   .wrapperContent {
     // margin: 32px;
     text-align: center;
-    height: 90%;
+    height: 80%;
     overflow-y: auto;
     // background: #eefde3b4;
     // background: red;
@@ -50,7 +51,6 @@
     // scrollbar-width: none;
     // padding-right: 117px;
     // box-sizing: content-box; 
-    // scrollba
 
     .wrapperHeaderTexts {
       width: 80%;
@@ -123,6 +123,8 @@
 
 @media (max-width: 900px) {
   .wrapperInfoProducts {
+    // height: 90%;
+
     .wrapperBtnBack {
       img {
         margin-top: 54px;
