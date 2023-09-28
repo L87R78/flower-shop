@@ -1,6 +1,4 @@
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -17,10 +15,8 @@ import styles from "./App.module.scss";
 
 const App = () => {
   const location = useLocation();
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
   const navigate = useNavigate();
-
-  console.log("@@@ location.pathname ", location.pathname);
 
   const handleStyleMenuButton = () => {
     switch (location.pathname) {

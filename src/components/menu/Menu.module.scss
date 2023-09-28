@@ -1,3 +1,5 @@
+@import "../../assets/scss/variables.scss";
+
 @mixin dflex {
   display: flex;
   justify-content: center;
@@ -10,7 +12,7 @@
   position: absolute;
   top: 0px;
   right: 0px;
-
+  
   header {
     border: none;
     @include dflex();
@@ -98,7 +100,7 @@
     @include dflex();
     width: 58px;
     height: 58px;
-    background: white;
+    background: $primaryWhite;
     color: black;
     border-radius: 58px;
     position: absolute;

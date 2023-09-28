@@ -15,12 +15,13 @@
 
 .flowers {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-bottom: 32px;
-  // border: 1px solid red;
 
   .flower {
     margin-bottom: 24px;
+    width: 310px;
 
     img {
       width: 80%;

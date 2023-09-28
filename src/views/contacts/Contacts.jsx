@@ -19,7 +19,7 @@ const Contacts = () => {
       }}
     >
       <div className={styles.content}>
-        <p className={styles.contentText}>sasasasasafdgfd fh ggjhkhhk kj jkl jkjkj kj kjk jk jk jkjkj</p>
+        <p className={styles.contentText}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum tempora magnam incidunt maiores inventore ipsum quia cupiditate, quas, eligendi suscipit nisi ad ab earum, quos veritatis itaque necessitatibus enim qui.</p>
       </div>
       <iframe
         title="test"

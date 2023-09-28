@@ -57,14 +57,14 @@ const Home = () => {
   return (
     <>
       <Video />
-      {/* {handleChangeColor()} */}
-      {/* <motion.div
+      {handleChangeColor()}
+      <motion.div
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: '50%', opacity: 0.9 }}
         style={{ background: handleChangeColor() }}
         className={styles.wrapperHome}
       >
-      </motion.div> */}
+      </motion.div>
     </>
   );
 };
