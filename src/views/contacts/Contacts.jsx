@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import styles from "./Contacts.module.scss";
 
 const Contacts = () => {
-
   return (
     <motion.div
       className={styles.wrapperContacts}
