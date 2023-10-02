@@ -9,8 +9,6 @@ import Video from "../../components/video/Video";
 
 import styles from "./Home.module.scss";
 
-let num = 0;
-
 const Home = () => {
   const [ t ] = useTranslation();
   const [couter, setCouter] = useState(0);
