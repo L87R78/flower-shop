@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/flower-shop/static/css/main.0404a17c.css",
-    "main.js": "/flower-shop/static/js/main.e10cc571.js",
+    "main.css": "/flower-shop/static/css/main.269cb2e9.css",
+    "main.js": "/flower-shop/static/js/main.3dbf0a8e.js",
     "static/media/video.mp4": "/flower-shop/static/media/video.8bff16b3c02bf8448985.mp4",
     "static/media/video.webm": "/flower-shop/static/media/video.e60f495352664e20b92d.webm",
-    "static/media/logoEngland.PNG": "/flower-shop/static/media/logoEngland.a29f117def8f9ae51c30.PNG",
     "static/media/flower2.png": "/flower-shop/static/media/flower2.12862eb2266495aa0dd5.png",
     "static/media/boadImage.PNG": "/flower-shop/static/media/boadImage.f8998748762ca305f636.PNG",
-    "static/media/logoBG.PNG": "/flower-shop/static/media/logoBG.42be2c52e79b97b91833.PNG",
     "static/media/roses.PNG": "/flower-shop/static/media/roses.20ac0d24eaf905116929.PNG",
     "static/media/iconLeafLong2.png": "/flower-shop/static/media/iconLeafLong2.a2b6ab3a63c250185aac.png",
     "index.html": "/flower-shop/index.html",
-    "main.0404a17c.css.map": "/flower-shop/static/css/main.0404a17c.css.map",
-    "main.e10cc571.js.map": "/flower-shop/static/js/main.e10cc571.js.map"
+    "main.269cb2e9.css.map": "/flower-shop/static/css/main.269cb2e9.css.map",
+    "main.3dbf0a8e.js.map": "/flower-shop/static/js/main.3dbf0a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0404a17c.css",
-    "static/js/main.e10cc571.js"
+    "static/css/main.269cb2e9.css",
+    "static/js/main.3dbf0a8e.js"
   ]
 }
