@@ -5,8 +5,8 @@ import { Link, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 import facebook from "../../assets/images/facebook.png";
-import logoBG from "../../assets/images/logoBG.PNG";
-import logoEngland from "../../assets/images/logoEngland.PNG";
+import logoBG from "../../assets/images/logoBG.png";
+import logoEngland from "../../assets/images/logoEngland.png";
 import routes from "../../util/routes";
 
 import styles from "./Menu.module.scss";
