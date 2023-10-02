@@ -1,4 +1,5 @@
 @import "./assets/scss/variables.scss";
+@import "./assets/scss/mixins.scss";
 
 .wrapperLogo {
   position: fixed;
@@ -8,6 +9,7 @@
   top: 42px;
   left: 50%;
   transform: translate(-50%, -50%);
+  @include animationShowMe;
 
   img {
     width: 80px;

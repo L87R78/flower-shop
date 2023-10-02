@@ -1,4 +1,5 @@
 @import "../../assets/scss/variables.scss";
+@import "../../assets/scss/mixins.scss";
 
 @mixin dflex {
   display: flex;
@@ -12,7 +13,7 @@
   position: absolute;
   top: 0px;
   right: 0px;
-  
+
   header {
     border: none;
     @include dflex();
@@ -20,14 +21,27 @@
 
     .wrapperLanguage {
       position: fixed;
-      right: 64px;
-      top: 19px;
+      right: 72px;
+      top: 15px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      width: 70px;
 
-      img {
+      @include animationShowMe;
+
+      .iconLanguage {
         width: 30px;
+        height: 28px;
         background-size: contain;
         cursor: pointer;
+        padding-top: 4px;
         border-radius: 100%;
+      }
+
+      .iconFacebook {
+        width: 34px;
+        cursor: pointer;
       }
     }
 
@@ -42,16 +56,7 @@
       right: 18px;
       top: 0px;
 
-      animation: showMe 3s forwards;
-
-      @keyframes showMe {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
+      @include animationShowMe;
     }
 
     .menuClose {

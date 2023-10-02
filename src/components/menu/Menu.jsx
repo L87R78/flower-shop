@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
+import facebook from "../../assets/images/facebook.png";
 import logoBG from "../../assets/images/logoBG.PNG";
 import logoEngland from "../../assets/images/logoEngland.PNG";
 import routes from "../../util/routes";
@@ -67,10 +68,16 @@ const Menu = () => {
         <header>
           <div className={styles.wrapperLanguage}>
             <img
+              className={styles.iconLanguage}
               src={!isChangeLangage ? logoBG : logoEngland}
               onClick={() => handleChangeLanguage()}
-              alt=""
+              alt="language icon"
             />
+            <img
+              className={styles.iconFacebook}
+              src={facebook}
+              onClick={() => alert("Go to Facebook page")}
+              alt="facebook icon" />
           </div>
           <div
             className={!isShowBtn ? styles.menuOpen : styles.menuClose}
