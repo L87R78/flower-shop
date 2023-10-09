@@ -21,7 +21,7 @@
       // height: 100%;
       margin: 8px;
       border-radius: 18px;
-      background: blue;
+      background: yellow;
     }
   }
 
@@ -35,6 +35,7 @@
   .wrapperHome {
     height: 80vh !important;
     top: 60%;
+    width: 100%;
     // overflow-y: scroll;
 
     .wrapperFirstCard {
@@ -45,6 +46,7 @@
       overflow-y: scroll;
 
       .card {
+        width: 40%;
         height: 50%;
       }
     }
@@ -54,7 +56,7 @@
 @media (max-width: 750px) {
   .wrapperHome {
     height: 80vh;
-    width: 90%;
+    width: 100%;
 
     .wrapperFirstCard {
       justify-content: space-between;
