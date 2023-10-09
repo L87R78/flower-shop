@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -20,10 +21,10 @@ const App = () => {
 
   const handleStyleMenuButton = () => {
     switch (location.pathname) {
-    case `${routes.products}${routes.romantic}`:
-      return "#000";
-    default:
+    case `${routes.baseURL}`:
       return "#fff";
+    default:
+      return "#000";
     }
   };
 
